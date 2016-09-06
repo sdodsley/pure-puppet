@@ -1,0 +1,37 @@
+{
+  "name": "pure-puppet",
+  "version": "0.0.1",
+  "author": "",
+  "summary": "Module for managing a Pure Storage FlashArray.",
+  "license": "Apache-2.0",
+  "source": "https://github.com/purestorage",
+  "project_page": "https://github.com/purestorage",
+  "issues_url": "https://github.com/purestorage",
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 3.7.0"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "7.0"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "14.04",
+        "16.04"
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 4.6.0 < 5.0.0"
+    }
+  ]
+}
